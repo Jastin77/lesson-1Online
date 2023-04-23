@@ -1,0 +1,81 @@
+.intro4 {
+    &__wrapper {
+        padding-top: 72px;
+        // position: relative;
+
+        &--title {
+            width: 162px;
+            font-size: 24px;
+            margin-bottom: 64px;
+            color: #F1F2F3;
+            margin: 0 559px;
+        }
+
+        &--CarMap {
+            position: relative;
+            padding: 0 205px;
+            left: 8rem;
+
+            &-Mapimg {
+                // position: absolute;
+                width: 650px;
+                height: 705px;
+
+                // left: 205px;
+                // right: 205px;
+            }
+
+            &-Carimg {
+                position: absolute;
+                width: 354px;
+                height: 462px;
+                left: 22rem;
+                bottom: 6rem;
+
+                z-index: 1;
+            }
+        }
+
+
+    }
+}
+
+
+
+@media only screen and(max-width: 768px) {
+    .intro4 {
+        &__wrapper {
+
+            &--title {
+                margin: 56px 113px 0 112px;
+                // margin: ;
+                width: 135px;
+                font-size: 20px;
+            }
+
+            &--CarMap {
+                padding: 0;
+                // overflow: hidden;
+                position: relative;
+                left: -3rem;
+                // bottom: rem;
+
+                &-Mapimg {
+                    // position: absolute;
+                    left: -7rem;
+                    width: 450px;
+                    height: 488px;
+                    overflow: hidden;
+                }
+
+                &-Carimg {
+                    position: absolute;
+                    left: 6rem;
+                    bottom: 4.7rem;
+                    width: 250px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}

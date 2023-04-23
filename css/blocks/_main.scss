@@ -1,0 +1,104 @@
+/* ---- MAIN SECTIONS START--- */
+
+main {
+
+    .intro {
+        // background-color: #0A0A0B;
+
+        .wrapper {
+            padding-top: 72px;
+
+            &__text-h1 {
+                text-align: center;
+                color: white;
+                font-size: 36px;
+                margin-bottom: 20px;
+
+            }
+
+            &__text-h5 {
+                text-align: center;
+                color: white;
+                font-size: 24px;
+                margin-bottom: 8px;
+            }
+
+            &__nameCar {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 7px;
+                margin-bottom: 48px;
+
+
+                &--text_car {
+                    color: white;
+                }
+            }
+
+            &__car_img {
+                margin: 0 450px;
+                margin-bottom: 48px;
+            }
+
+            &__dateHome {
+                display: flex;
+                justify-content: center;
+                gap: 104px;
+                margin-bottom: 56px;
+                // align-items: center;
+            }
+
+            &__startImg {
+                padding: 0 595px 32px 595px;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+}
+
+// ------------section one end------------//
+
+
+@media only screen and (max-width: 768px) {
+    main {
+
+
+        .intro {
+            .wrapper {
+
+                &__car_img {
+                    width: 280px;
+                    margin: 0 40px;
+                    margin-bottom: 46px;
+                }
+
+                &__dateHome {
+                    padding: 0 32px;
+                    gap: 70px;
+
+                    &-img {
+                        width: 50px;
+                    }
+                }
+
+                &__startImg {
+                    padding: 0 135px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+@media only screen and(max-width: 768px) {}

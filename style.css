@@ -1,0 +1,103 @@
+*::after, *::before,*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: #0A0A0B;
+
+}
+
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: #0A0A0B; */
+}
+
+
+/* ----HEADER START---- */
+
+header{
+    width: 100%;
+    /* background-color: #0A0A0B; */
+    margin-bottom: 72px;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 128px;
+    padding-right: 129px;
+}
+
+.nav 
+.nav__list{
+    display: flex;
+    gap: 48px;
+    
+}
+.nav 
+.nav__list 
+.nav__list--item{
+    list-style-type: none;
+}
+
+.nav 
+.nav__list 
+.nav__list--item-link{
+    color: white;
+    text-decoration: none;
+}
+.nav 
+.nav__list 
+.nav__list--item
+.nav__list--item-link_home{
+    color: #4177DC;
+    text-decoration: none;
+}
+
+ /* ----HEADER START----- */
+
+ /* ---- MAIN SECTIONS START--- */
+
+.wrapper
+.text-h1{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+.wrapper 
+.text-h5{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.wrapper
+.wrapper__nameCar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 48px;
+}
+.wrapper .wrapper__nameCar
+.text_car{
+    color: white;
+}
+
+.wrapper 
+.car_img{
+    margin: 0 450px;
+}

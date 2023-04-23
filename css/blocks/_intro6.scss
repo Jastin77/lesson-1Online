@@ -1,0 +1,88 @@
+.intro6 {
+
+
+    &__wrapper {
+        background-image: url(/images/subscribe-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding: 0 188px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        &--carInfo {
+            padding: 72px 0 56px 0;
+
+            &-title {
+                width: 312px;
+                font-size: 24px;
+                color: #F1F2F3;
+                margin-bottom: 32px;
+            }
+
+            &-text {
+                width: 375px;
+                font-size: 16px;
+                color: #BABEC4;
+                margin-bottom: 48px;
+            }
+
+            &-btn {
+                padding: 14px 32px;
+                color: #FFFFFF;
+                background: #4177DC;
+            }
+
+            &-img {
+                width: 450px;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and(max-width: 768px) {
+    .intro6 {
+
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            &--carInfo {
+                // margin-bottom: 64px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                // align-items: center;
+
+                &-title {
+                    text-align: center;
+                }
+
+                &-text {
+                    width: 312px;
+                    text-align: center;
+                }
+
+                &-btn {
+                    text-align: center;
+                }
+            }
+
+            &--img {
+                width: 400px;
+                height: 179px;
+                margin-bottom: 64px;
+                padding-left: 60px;
+                padding: 32px;
+                // overflow: hidden;
+            }
+        }
+    }
+}

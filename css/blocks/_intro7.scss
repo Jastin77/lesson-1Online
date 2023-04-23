@@ -1,0 +1,39 @@
+.intro7 {
+    &__wrapper {
+        padding: 0 225px;
+
+        &--logos {
+            padding: 76px 0 78px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 106px;
+
+            &-img {
+                width: 50px;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and(max-width: 768px) {
+    .intro7 {
+
+        &__wrapper {
+            padding: 56px 0 70px 0;
+
+            &--logos {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 64px;
+                padding: 0 56px;
+
+                &-img {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
